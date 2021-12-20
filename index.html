@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portfolio</title>
+  <meta name="description" content="A portfolio webpage">
+  <meta name="author" content="">
+
+  <meta property="og:title" content="A template for a portfolio webpage">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:description" content="A template for webpages">
+  <meta property="og:image" content="">
+
+
+  <link rel="stylesheet" href="assets\css\style.css">
+
+</head>
+
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+           
+          </button>
+    </nav>
+    <section class="hero" id="about">
+      <img
+        src="assets\images\herostar.png"
+        alt="star"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+          inventore tempore minus nemo, iste ullam illo laboriosam maiores
+          repudiandae quos!
+        </p>
+      </div>
+</section>
+
+<section class="more-about">
+  <h2>More About Me</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+    nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+    autem deleniti cupiditate molestias quis unde quae totam porro dicta
+    iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+    nostrum dolor minus, libero delectus praesentium perferendis
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+    consequuntur labore? Ea totam voluptas amet!
+  </p>
+</section>
+<section class="skills" id="skills">
+  <h2 class="skill-header">My top skills</h2>
+  <h3>JavaSE</h3>
+  <p>
+    • Primitive types and control structures like loops (while, for…) selections(if, switch…)
+    • String
+    • Object Oriented Programming
+    • Inhertitance / Interfaces
+    • Handling exceptions (Runtime & Checked)
+    • Arrays
+    • Collections (ArrayList, HashSet, TreeSet, Map)
+    • Enums
+    • Generics
+    • Functional Programming
+    • Java Time API
+    • Serialization Java IO / NIO
+    • JSON
+    • SQL, JDBC med MySQL.
+  </p>
+  <h3>Testing</h3>
+  <p>
+• Unit testing with Junit 5 & 4 the whole java part of the course
+• Integration testing with in memory database
+• Controller testing with MockMvc
+  </p>
+  <h3>HTML/CSS</h3>
+  <p>
+• HTML
+• CSS
+• BootStrap v4+
+  </p>
+  <h3>Spring / Spring Boot</h3>
+  <p>
+  • Dependency Injection
+• JPA / Hibernate CRUD
+• Entities
+• Relational mapping between entities in JPA.
+• Spring Boot / SpringMVC with Thymeleaf
+• Spring Boot / SpringMVC REST Api
+• Exceptionhandling (@ControllerAdvice)
+• Validation (REST & Thymeleaf in back end)
+  </p>
+  <p>
+    JavaScript:
+• Basic JavaScript
+• ES6 JavaScript
+• REACT
+  </p>
+
+  <div class="skills-wrapper">
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact me</h2>
+  <div class="contact-form-container">
+    <div class="contact-form">
+      <form action="submission.html" method="POST">
+        <div class="form-control">
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" class="input-field" required>
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input id="email" name="sender-email" type="text" placeholder="Enter your email" class="input-field" required>
+        </div>
+        <div class="form-control">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" cols="60" rows="10" placeholder="Enter your message" class="input-field" required>
+          </textarea>
+        </div>
+        <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+        <input type="delete" value="Delete" id="delete-btn" class="delete-btn">
+      </form>
+    </div>
+  </div>
+</section>
+  <!-- your content here... -->
+  <!---<script src=""></script>--->
+</body>
+</html>
